@@ -19,7 +19,7 @@ const Model = () => {
   }, []);
 
   return (
-    <div  id="canvas">
+    <div className="w-full">
       <canvas id="canvas3d"></canvas>
     </div>
   );
