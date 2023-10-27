@@ -10,7 +10,9 @@ const Model = () => {
       const canvasElement = canvas as HTMLCanvasElement;
       const app = new Application(canvasElement);
       // app.load('https://prod.spline.design/8Fe6Zk7zZVKaUOiV/scene.splinecode');
-      app.load('https://prod.spline.design/sXaGi19VGxPNUwVS/scene.splinecode');
+      // app.load('https://prod.spline.design/sXaGi19VGxPNUwVS/scene.splinecode');
+      app.load('https://prod.spline.design/8Fe6Zk7zZVKaUOiV/scene.splinecode');
+
 
       return () => {
         app.dispose();
